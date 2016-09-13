@@ -1,32 +1,47 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="js/testStyle.css">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <script type="text/javascript" src="js/player.js"></script>
-    </head>
-    <body>
-          <div id="videoContaier">
-           <video src="sample.mp4" id="video"></video>
-            <div id="controlPanel">
-                <div id = "firstButtonBlock">
-                    <div id="menu" class="playerButton"></div>
-                    <div id="play" class="playerButton"></div>                      
-                </div>
-                <div id = "progress">
-                    <div id="pBar">
-                        <div id="pField"></div>
-                    </div>
-                </div>
-                <div id="secButtonBlock" class="pull-right">
-                    <div id = "time">
-                        00:00
-                    </div>
-                        <div id="help" class="playerButton" ></div> 
-                        <div id="fullScreen" class="playerButton"></div>
-                        <div id="volume" class="playerButton"></div>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="js/testStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script type="text/javascript" src="js/player.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+</head>
+
+<body>
+    <div id="videoContaier">
+        <video src="sample.mp4" id="video">
+
+        </video>
+        <a href="http://tpu.ru">
+            <div id="logo">
+
+            </div>
+        </a>
+        <div id="playlist">
+
+        </div>
+
+        <div id="controlPanel">
+            <div id="firstButtonBlock">
+                <div id="menu" class="playerButton"></div>
+                <div id="play" class="playerButton"></div>
+            </div>
+            <div id="progress">
+                <div id="pBar">
+                    <div id="pField"></div>
                 </div>
             </div>
+            <div id="secButtonBlock" class="pull-right">
+                <div id="time">
+                    00:00
+                </div>
+                <div id="help" class="playerButton"></div>
+                <div id="fullScreen" class="playerButton"></div>
+                <div id="volume" class="playerButton"></div>
             </div>
-    </body>
+        </div>
+    </div>
+</body>
+
 </html>
