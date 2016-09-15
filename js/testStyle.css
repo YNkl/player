@@ -51,6 +51,17 @@ video {
     opacity: 0;
 }
 
+#logo{
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+}
+
 #videoContaier {
     position: relative;
     width: 640px;
@@ -74,11 +85,12 @@ video {
 
 .playerButton {
     height: 20px;
-    width: 20px;
+    width: 15px;
     background-size: contain;
+    background-repeat: no-repeat;
     display: inline-block;
     margin: 0;
-    vertical-align: -8px;
+    vertical-align: -10px;
     cursor: pointer;
 }
 

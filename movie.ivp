@@ -1,0 +1,24 @@
+﻿&iVp_file_version=2 (palmCrab@ya.ru)
+
+
+{ movieInfo
+
+  capt: Аудит|Лекционный видеокурс
+  auth: Плучевская Э.В.
+  aURL: http://tpu.ru/education/edu-policy/eer/
+  path: http://ido-files.tpu.ru/vod/FLV/AUDIT/
+  logo: #custom
+  lURL: http://tpu.ru
+  scrn: #4:3
+}
+
+{ itemList
+
+  item: 01 1. Аудит, его сущность, задачи, принципы
+  item: 02 2. Теория аудита. Классификация возможных ошибок 
+  item: 03 3. Аудит внеоборотных активов
+  item: 04 4. Аудит учета материально-производственных запасов
+  item: 05 5. Аудит расчетов
+  item: 06 6. Аудит затрат на производство и калькулирование себестоимости продукции
+  
+  }
