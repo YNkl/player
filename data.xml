@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <sites>
+   <site>
+     <id>1</id>
+     <title>movie 1</title>
+	 <url>sample.mp4</url>
+   </site>
+   <site>
+     <id>2</id>
+     <title>movie 2</title>
+	 <url>sdf</url>
+   </site>
+   <site>
+     <id>3</id>
+     <title>movie 2</title>
+	 <url>sdf</url>
+   </site>
+ </sites>

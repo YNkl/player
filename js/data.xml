@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <sites>
+   <site>
+     <title>W3C</title>
+	 <url>tpu.ru</url>
+     <desc>there are web standards</desc>
+   </site>
+   <site>
+     <title>Mozilla</title>
+	 <url>tpu.ru</url>
+     <desc>here you can download his latest firefox. and generally learn more about him</desc>
+   </site>
+ </sites>
